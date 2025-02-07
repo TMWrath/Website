@@ -1,0 +1,62 @@
+/* Containers (Models, Art, Music) */
+#art-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* Space between items */
+    justify-content: center;
+    align-items: stretch; /* Ensures each item stretches to the same height */
+    margin-top: 20px;
+    padding: 20px; /* Adds padding for better spacing */
+}
+
+/* Item Styling (Models, Art, Music) */
+.art-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out elements within the item */
+    align-items: center;
+    background-color: var(--card-bg); /* Lighter background for better contrast */
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    min-height: 300px; /* Adjusted to accommodate the lyrics section */
+    height: 100%; /* Ensure the height adjusts to the content */
+    overflow: hidden;
+    text-align: center;
+    word-wrap: break-word; /* Allow long words to break and wrap onto the next line */
+}
+
+/* Image Styling */
+.art-item img {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%; /* Make image responsive */
+    max-width: 300px; /* Limit maximum width of images */
+    height: auto;
+}
+
+/* Title Styling */
+.art-item p {
+    font-size: 16px; /* Increased font size for better readability */
+    color: var(--text-color); /* Ensure the text is visible on the lighter background */
+    font-weight: bold;
+    margin-bottom: 15px;
+    overflow: hidden; /* Hide overflowed text */
+    text-overflow: ellipsis; /* Truncate text if it overflows */
+    white-space: normal; /* Allow text to break into multiple lines */
+    word-wrap: break-word; /* Wrap long words onto the next line */
+    line-height: 1.5; /* Better readability */
+}
+
+
+.art-item:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+    #art-container {
+        grid-template-columns: 1fr;
+    }
+}
