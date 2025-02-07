@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Chaos",
+        "image": "/images/Chaos_Cover.png",
+        "file": "/music/T.M. Wrath - Chaos.wav",
+        "lyrics": "/music/lyrics/Chaos.md"
+    },
+    {
+        "title": "Lies",
+        "image": "/images/Lies_Cover.jpg",
+        "file": "/music/T.M. Wrath - Lies.wav",
+        "lyrics": "/music/lyrics/Lies.md"
+    },
+    {
+        "title": "My Pandemonium",
+        "image": "/images/My_Pandemonium_Cover.jpeg",
+        "file": "/music/T.M. Wrath - My Pandemonium.wav",
+        "lyrics": "/music/lyrics/My Pandemonium.md"
+    },
+    {
+        "title": "Open Your Eyes (Last Reminder)",
+        "image": "/images/Open_Your_Eyes_Cover.jpg",
+        "file": "/music/T.M. Wrath - Open Your Eyes (Last Reminder).wav",
+        "lyrics": "/music/lyrics/Open Your Eyes (Last Reminder).md"
+    }
+]
