@@ -1,0 +1,35 @@
+[
+    {
+        "file": "Coffin Holder/Coffin_Holder.stl",
+        "name": "Coffin Holder",
+        "printTime": "N/A",
+        "printFile": "",
+        "hardwareRequirements": "N/A",
+        "3dPreview": "Coffin Holder/Coffin_Holder.stl",
+        "recommendedFilament": "PLA"
+    },
+    {
+        "file": "Humidor Shelf/Humidor_Shelf.stl",
+        "name": "Humidor Shelf",
+        "printTime": "N/A",
+        "printFile": "Humidor Shelf/Humidor_Shelf.3mf",
+        "hardwareRequirements": "N/A",
+        "3dPreview": "Humidor Shelf/Humidor_Shelf.stl",
+        "recommendedFilament": "PLA",
+        "carouselImages": [
+            "Humidor Shelf/previews/HS_2.webp",
+            "Humidor Shelf/previews/HS_1.webp",
+            "Humidor Shelf/previews/HS_3.webp",
+            "Humidor Shelf/previews/HS_4.webp"
+        ]
+    },
+    {
+        "file": "Roadside Cross/Roadside_Cross.stl",
+        "name": "Roadside Cross",
+        "printTime": "N/A",
+        "printFile": "Roadside Cross/Roadside_Cross.3mf",
+        "hardwareRequirements": "N/A",
+        "3dPreview": "Roadside Cross/Roadside_Cross.stl",
+        "recommendedFilament": "PLA"
+    }
+]
