@@ -1,0 +1,28 @@
+/* General Styles */
+:root {
+    --primary-color: #777777;
+    --secondary-color: #000000;
+    --accent-color: #b6b6b6;
+    --text-color: #1a1a1a;
+    --bg-color: #ffffff;
+    --card-bg: #fff;
+    --border-color: #e0e0e0;
+    --nav-bg: #ffffff;
+    --footer-bg: #ffffff;
+
+    /* Dark mode variables */
+    --dark-text-color: #ffffff;
+    --dark-bg-color: #1a1a1a;
+    --dark-card-bg: #2d2d2d;
+    --dark-border-color: #404040;
+    --dark-nav-bg: #1a1a1a;
+}
+
+[data-theme="dark"] {
+    --text-color: var(--dark-text-color);
+    --bg-color: var(--dark-bg-color);
+    --card-bg: var(--dark-card-bg);
+    --border-color: var(--dark-border-color);
+    --nav-bg: var(--dark-nav-bg);
+    --footer-bg: #1a1a1a;
+}
